@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exemple de page web avec JavaScript</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <h1>Exemple de page web avec JavaScript</h1>
+
+    <p>Cliquez sur le bouton ci-dessous pour afficher une alerte :</p>
+    <button onclick="alert('Hello world!')">Afficher l'alerte</button>
+
+    <p>Entrez un message dans la console :</p>
+    <input type="text" id="console-input">
+    <button onclick="console.log(document.getElementById('console-input').value)">Afficher dans la console</button>
+
+    <script>
+      // Exemple de fonction qui est exécutée au clic d'un bouton
+      function handleClick() {
+        console.log("Le bouton a été cliqué !");
+      }
+    </script>
+
+    <p>Cliquez sur le bouton ci-dessous pour exécuter une fonction :</p>
+    <button onclick="handleClick()">Exécuter la fonction</button>
+  </body>
+</html>   
